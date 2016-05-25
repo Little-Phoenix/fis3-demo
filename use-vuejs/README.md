@@ -23,6 +23,7 @@ npm install [-g] fis3-postpackager-loader
 
 #编译预览
 cd fis-vuejs-seed
+npm install //如果有淘宝镜像最好用cnpm，可以预防一些网络问题导致的安装错误
 fis3 release
 fis3 server start --type node
 
